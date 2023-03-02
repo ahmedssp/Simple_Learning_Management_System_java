@@ -31,9 +31,19 @@ public class Main {
 //        File_m.Write("Out_Data/Student_course_details2.json",jason); //write data to jason format final
 ////
 ////            //create function that search on jason file and prints specific student data in organized style
-        jason_data.student_data("Out_Data/student-data_out.csv","Out_Data/cource_list_CSV.csv","Out_Data/Student_course_details.json",5);
+//        jason_data.student_data("Out_Data/student-data_out.csv","Out_Data/cource_list_CSV.csv","Out_Data/Student_course_details.json",5);
+///_________________________________________________________________________________________________________________________________
+        // enrollment course
+        course_enrollment.course_enroll("Out_Data/Student_course_details2.json","1","5");
+///_________________________________________________________________________________________________________________________________
 
-        }
+        //unenrollment course
+        course_enrollment.uncourse_enroll("Out_Data/Student_course_details2.json","2","0");
+///_________________________________________________________________________________________________________________________________
+
+        //unenroll and enroll course
+        course_enrollment.course_enroll_unenroll("Out_Data/Student_course_details2.json","3","3","8");
+        
+
     }
-
-
+    }
