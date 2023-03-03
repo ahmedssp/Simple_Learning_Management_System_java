@@ -1,10 +1,3 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
 public class jason_data {
      //A1=studentlist_fainal_txt_file_path
      //A2=courcetlist_fainal_txt_file_path
@@ -24,7 +17,7 @@ public class jason_data {
         System.out.println ("Name:"+File_line_to_array.fun_E(A1,A4)[1]+"           "+"Grade:"+File_line_to_array.fun_E(A1,A4)[2]+"          "+ "Email:"+File_line_to_array.fun_E(A1,A4)[3]);
         System.out.println ("------------------------------------------------------------------------------------");
         System.out.println ( " Enrolled courses.");
-          String v=tst.jason_search_val(A3, String.valueOf(A4));
+          String v= Json_Search.jason_search_val(A3, String.valueOf(A4));
          for(int x = 0; x <v.length(); x++){
              System.out.println(File_line_to_array.fun_Line_COURCE(A2).get(Character.getNumericValue(v.charAt(x))));
          }

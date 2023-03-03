@@ -39,8 +39,8 @@ class course_enrollment
         HashMap<String, ArrayList<String>> my_dict = new HashMap<String, ArrayList<String>>();
 
         //serach and modyfay cource value data
-//        System.out.println(String.valueOf(tst.jason_search_val2(PATH, s_id, c_id)));
-        String ee=String.valueOf(tst.jason_search_val2(PATH, s_id, c_id)); // convert Arraylist to String
+//        System.out.println(String.valueOf(Json_Search.jason_search_val2(PATH, s_id, c_id)));
+        String ee=String.valueOf(Json_Search.Add_COURCE_Array(PATH, s_id, c_id)); // convert Arraylist to String
        ee= ee.strip().replace("\",","\":").replace(" ","").replace(".",",");
 
 //        System.out.println(ee);
@@ -50,13 +50,13 @@ class course_enrollment
         File_m.Write("Out_Data/Student_course_details2.json", String.valueOf(json)); //write data to jason format final
 
     }
-    public static void uncourse_enroll(String PATH,String s_id,String c_id) throws IOException {
+    public static void course_unenroll(String PATH,String s_id,String c_id) throws IOException {
 //        ArrayList<String> TXT=new ArrayList<>();
         HashMap<String, ArrayList<String>> my_dict = new HashMap<String, ArrayList<String>>();
 
         //serach and modyfay cource value data
-//        System.out.println(String.valueOf(tst.jason_search_val2(PATH, s_id, c_id)));
-        String ee=String.valueOf(tst.jason_search_val3(PATH, s_id, c_id)); // convert Arraylist to String
+//        System.out.println(String.valueOf(Json_Search.jason_search_val2(PATH, s_id, c_id)));
+        String ee=String.valueOf(Json_Search.Remove_COURCE_Array(PATH, s_id, c_id)); // convert Arraylist to String
         ee= ee.strip().replace("\",","\":").replace(" ","").replace(".",",");
 //       String ee2= ee.replace(ee.charAt(0), '{').replace(ee.charAt(ee.length()-1),'}');
 
@@ -73,7 +73,7 @@ class course_enrollment
         HashMap<String, ArrayList<String>> my_dict = new HashMap<String, ArrayList<String>>();
 
         //serach and modyfay cource value data
-        String ee=String.valueOf(tst.jason_search_val_un_en(PATH, s_id, c_id_un,c_id_en)); // convert Arraylist to String
+        String ee=String.valueOf(Json_Search.jason_search_val_un_en(PATH, s_id, c_id_un,c_id_en)); // convert Arraylist to String
         ee= ee.strip().replace("\",","\":").replace(" ","").replace(".",",");
 
         StringBuilder json = new StringBuilder(ee);

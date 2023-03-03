@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 
-public class tst {
+public class Json_Search {
 
     public static String  jason_search_val(String path,String S_ID) { // Function to read file
         String line = "";
@@ -45,7 +45,7 @@ public class tst {
         return val2;
     }
 
-    public static ArrayList<String> jason_search_val2(String path, String S_ID, String C_ID) { // Function to read file
+    public static ArrayList<String> Add_COURCE_Array(String path, String S_ID, String C_ID) { // Function to read file
         String line = "";
         String data = "";
         ArrayList<String> R = null;
@@ -112,7 +112,7 @@ public class tst {
     }
 
 
-    public static ArrayList<String> jason_search_val3(String path, String S_ID, String C_ID_un) {
+    public static ArrayList<String> Remove_COURCE_Array(String path, String S_ID, String C_ID_un) {
         // Function to read file
         String line = "";
         String data = "";
