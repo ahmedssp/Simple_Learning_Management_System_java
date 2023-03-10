@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class manipulation_student_data_print {
-    public static void fun(String FILEPATH, int colom)  // print csv file into proper format
+    public static void Present_csv(String FILEPATH, int colom)  // print csv file into proper format
     {
         String line = "";
         String data = "";
@@ -44,9 +44,9 @@ public class manipulation_student_data_print {
 
             }
         }
-        System.out.println("---------------------------------------------------------------------------------------\n");
-        System.out.println("                            Current Student List");
-        System.out.println("---------------------------------------------------------------------------------------");
+//        System.out.println("---------------------------------------------------------------------------------------\n");
+//        System.out.println("                            Current Student List");
+//        System.out.println("---------------------------------------------------------------------------------------");
 
         for (int c = 0; c < outputarray.length; c++) {
             System.out.println(outputarray[c][0] + " " + outputarray[c][1] + "  " + outputarray[c][2] + "                " + outputarray[c][3] + "              " + outputarray[c][4]

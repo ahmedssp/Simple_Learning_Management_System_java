@@ -35,36 +35,21 @@ class course_enrollment
     }
 
     public static void course_enroll(String PATH,String s_id,String c_id) throws IOException {
-//        ArrayList<String> TXT=new ArrayList<>();
-        HashMap<String, ArrayList<String>> my_dict = new HashMap<String, ArrayList<String>>();
-
-        //serach and modyfay cource value data
-//        System.out.println(String.valueOf(Json_Search.jason_search_val2(PATH, s_id, c_id)));
         String ee=String.valueOf(Json_Search.Add_COURCE_Array(PATH, s_id, c_id)); // convert Arraylist to String
-       ee= ee.strip().replace("\",","\":").replace(" ","").replace(".",",");
-
-//        System.out.println(ee);
+         ee= ee.strip().replace("\",","\":").replace(" ","").replace(".",",");
         StringBuilder json = new StringBuilder(ee);
         json.setCharAt(ee.length()-1, '}');json.setCharAt(0, '{');
-
-        File_m.Write("Out_Data/Student_course_details2.json", String.valueOf(json)); //write data to jason format final
-
+        File_m.Write(PATH, String.valueOf(json)); //write data to jason format final
     }
     public static void course_unenroll(String PATH,String s_id,String c_id) throws IOException {
 //        ArrayList<String> TXT=new ArrayList<>();
-        HashMap<String, ArrayList<String>> my_dict = new HashMap<String, ArrayList<String>>();
-
         //serach and modyfay cource value data
-//        System.out.println(String.valueOf(Json_Search.jason_search_val2(PATH, s_id, c_id)));
         String ee=String.valueOf(Json_Search.Remove_COURCE_Array(PATH, s_id, c_id)); // convert Arraylist to String
         ee= ee.strip().replace("\",","\":").replace(" ","").replace(".",",");
-//       String ee2= ee.replace(ee.charAt(0), '{').replace(ee.charAt(ee.length()-1),'}');
 
-//        System.out.println(ee);
         StringBuilder json = new StringBuilder(ee);
         json.setCharAt(ee.length()-1, '}');json.setCharAt(0, '{');
-
-        File_m.Write("Out_Data/Student_course_details2.json", String.valueOf(json)); //write data to jason format final
+        File_m.Write(PATH, String.valueOf(json)); //write data to jason format final
 
     }
 
@@ -79,11 +64,9 @@ class course_enrollment
         StringBuilder json = new StringBuilder(ee);
         json.setCharAt(ee.length()-1, '}');json.setCharAt(0, '{');
 
-        File_m.Write("Out_Data/Student_course_details2.json", String.valueOf(json)); //write data to jason format final
+        File_m.Write(PATH, String.valueOf(json)); //write data to jason format final
 
     }
-
-
 
 
 }

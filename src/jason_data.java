@@ -1,8 +1,11 @@
 public class jason_data {
+    //attreput  definition
      //A1=studentlist_fainal_txt_file_path
      //A2=courcetlist_fainal_txt_file_path
      //A3=courcetlist_fainal_txt_file_path
      //A4=student_id
+
+    //this function prints the student data report name aqnd cources
     public static void student_data(String A1,String A2,String A3,Integer A4){
        //tsts
 //        System.out.println(File_line_to_array.fun_E(A1,A3)[1]);

@@ -30,7 +30,7 @@ public class File_line_to_array {
         AA = recordlist.get(X).split(",");
        return AA;
     }
-    //FOR COURCE
+    // convert cource to list  to access row
     public static List<String> fun_Line_COURCE(String file_path){
         String line = "";
         String data = "";String[] AA;
