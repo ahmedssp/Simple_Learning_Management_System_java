@@ -4,7 +4,7 @@
 
 > Simple Learning Management System is a console application designed using java language 
 
-### Implement data manipulation functionalities:
+#### Implement data manipulation functionalities:
 
   - Implement listing all students functionality report format.\n
   - Implement view-specific student data functionality.
@@ -15,8 +15,8 @@
   - Implement replacement course functionality for one of the students.
   - Searching in Jason file and return its data and searching that data in CSV files and present it into a proper format.
 
-### Implement  application UI from consol window:
-#### use the previouse functions and integrate them to developd UI console window: 
+#### Implement  application UI from consol window:
+##### Use the previous functions and integrate them to develop a UI console window:
 
   - Home page implementation
   - Enrollment page implementation
