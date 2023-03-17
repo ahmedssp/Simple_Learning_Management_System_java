@@ -6,28 +6,30 @@
 
 Implement data manipulation functionalities:
 
--Implement listing all students functionality report format.
+  -Implement listing all students functionality report format.
 
--Implement view-specific student data functionality.
+  -Implement view-specific student data functionality.
 
--creat jason file from user consol option.
+  -creat jason file from user consol option.
 
--Generate jason file function has input student.txt file.
+  -Generate jason file function has input student.txt file.
 
--Implement enrolling a student in a course functionality.
+  -Implement enrolling a student in a course functionality.
 
--Implement unenrolling a student from a course functionality.
+  -Implement unenrolling a student from a course functionality.
 
--Implement replacement course functionality for one of the students.
+  -Implement replacement course functionality for one of the students.
 
--Searching in Jason file and return its data and searching that data in CSV files and present it into a proper format.
+  -Searching in Jason file and return its data and searching that data in CSV files and present it into a proper format.
 
 Implement  application UI from consol window:
+
 use the previouse functions and integrate them to developd UI console window: 
--Home page implementation
--Enrollment page implementation
--Unenroll page
--Replacing an existing course page
+
+  -Home page implementation
+  -Enrollment page implementation
+  -Unenroll page
+  -Replacing an existing course page
 
 Implement listing-created CSV file functionality by representing data in an organized way and specific format.
 
