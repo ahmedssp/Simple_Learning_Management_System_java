@@ -6,8 +6,7 @@
 
 Implement data manipulation functionalities:
 
-  -Implement listing all students functionality report format.
-
+  -Implement listing all students functionality report format.\n
   -Implement view-specific student data functionality.
 
   -creat jason file from user consol option.
