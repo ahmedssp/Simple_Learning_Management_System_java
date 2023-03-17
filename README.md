@@ -16,7 +16,7 @@
   - Implement replacement course functionality for one of the students.
 
 #### Implement  application UI from consol window:
-##### Use the previous functions and integrate them to develop a UI console window:
+> ##### Use the previous functions and integrate them to develop a UI console window:
 
   - Home page implementation
   - Enrollment page implementation
