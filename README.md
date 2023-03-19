@@ -15,7 +15,7 @@
   - Searching in Jason file and return its data and searching that data in CSV files and present it into a proper format.
   - Implement enrolling a student in a course functionality.
   - Implement unenrolling a student from a course functionality.
-  - Implement replacement course functionality for one of the students.
+  - Implement replacement course functionality for the selected student.
 
 #### Implement  application UI from consol window:
 > ##### Use the previous functions and integrate them to develop a UI console window:
