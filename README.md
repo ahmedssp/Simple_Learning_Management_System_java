@@ -27,5 +27,4 @@
 #### Test  application (Test all possible scenarios): See screen record file video
   -  enter  invalid student Id , corce Id 
   -  enter  invalid action 
-  -  manage pages on concole 
 
