@@ -3,9 +3,9 @@
 ### *Created By Ahmed Mostafa abdellsalame - Jan 28, 2023*
 
 > Simple Learning Management System is a console application designed using java language 
+in this project we have two input files.txt ,student list and cource list 
 
-#### Implement data manipulation functionalities:
-
+#### Implemented functions(unit):
   - Implement listing all students functionality report format.
   - Implement view-specific student data functionality.(Searching data)
   - creat jason file from user consol option.
