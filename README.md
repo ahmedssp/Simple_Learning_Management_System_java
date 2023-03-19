@@ -3,6 +3,7 @@
 ### *Created By Ahmed Mostafa abdellsalame - Jan 28, 2023*
 
 > Simple Learning Management System is a console application designed using java language
+
 >In this project, we have two inputs files.txt, student list, and course list, both of them used to develop Simple Learning Management System, so the user can enroll, unenroll or remove any course for any student that the user selects also can view report for each student information, Jason file selected to save changes data and update it every time user need to change.
  
 
